@@ -5,10 +5,14 @@
 #include "TestObjects.h"
 
 void AddSC_omarion_60_4_B();
+void AddSC_test_nightbane();
+void AddSC_test_hover();
 
 void AddObjects_Scripts()
 {
     if (!(sConfigMgr->GetOption<bool>("TestObjects.Objects", false)))
         return;
     AddSC_omarion_60_4_B();
+    AddSC_test_nightbane();
+    AddSC_test_hover();
 }
