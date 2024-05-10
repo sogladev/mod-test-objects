@@ -1,0 +1,52 @@
+#
+# Copyright (C) 2016+ AzerothCore <www.azerothcore.org>, released under GNU AGPL v3 license: https://github.com/azerothcore/azerothcore-wotlk/blob/master/LICENSE-AGPL3
+#
+
+[worldserver]
+
+#
+#    TestObjects.Enable
+#        Description: Enable Test Objects Module
+#                     Please note that like all AzerothCore modules, database changes cannot be undone through config settings.
+#                     This means that world changes will remain in place even if disabled.
+#        Default:     1 - Enabled
+#                     0 - Disabled
+#
+
+TestObjects.Enable = 1
+
+#
+#    TestObjects.LoadScripts
+#        Description: Enable loading scripts
+#        Default:     1 - Enabled
+#                     0 - Disabled
+#
+
+TestObjects.LoadScripts = 1
+
+#
+#    TestObjects.LoadDatabase
+#        Description: Enable loading SQL files
+#        Default:     1 - Enabled
+#                     0 - Disabled
+#
+
+TestObjects.LoadDatabase = 1
+
+#
+#    TestObjects.ReapplyUpdates
+#        Description: Always reapply every SQL file on start up. Warning: impacts start up times.
+#        Default:     1 - Enabled
+#                     0 - Disabled
+#
+
+TestObjects.ReapplyUpdates = 1
+
+#
+#    TestObjects.X
+#        Description: Defines if the phase should be loaded being 0 not loaded, 1 loaded.
+#        Default:     0 - Not loaded.
+#
+
+TestObjects.Objects     = 1
+TestObjects.OtherStuff  = 0  # (NOT IMPLEMENTED)
